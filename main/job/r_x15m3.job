@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+#SBATCH --output=drift_model3.out
+#SBATCH --mem=30000M
+cd /home/koelle/hy39/Project15/binding_v4/Mbindingavidity
+srun /opt/apps/matlabR2014a/bin/matlab -nodisplay -r "main_binding_fromeq_m_single"
+
+ 

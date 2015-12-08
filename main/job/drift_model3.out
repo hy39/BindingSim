@@ -1,0 +1,95 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2014 The MathWorks, Inc.
+                    R2014a (8.3.0.532) 64-bit (glnxa64)
+                             February 11, 2014
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+fid =
+
+     3
+
+
+fid =
+
+     4
+
+
+out_dir =
+
+out/20151123/c15
+
+
+fid =
+
+     5
+
+Days 10: 1057, 2943
+Days 20: 1094, 5123
+Days 30: 1114, 7463
+Days 40: 1102, 9690
+Days 50: 1049, 11740
+Days 60: 1003, 13731
+Days 70: 972, 15647
+Days 80: 1026, 17664
+Days 90: 1046, 19667
+Days 100: 1209, 22050
+Days 110: 1167, 24381
+Days 120: 1086, 26598
+Days 130: 1064, 28731
+Days 140: 1009, 30762
+Days 150: 878, 32511
+Days 160: 778, 34069
+Days 170: 738, 35528
+Days 180: 693, 36880
+Days 190: 639, 38116
+Days 200: 537, 39222
+Days 210: 367, 40040
+Days 220: 306, 40666
+Days 230: 234, 41104
+Days 240: 191, 41485
+Days 250: 172, 41842
+Days 260: 176, 42205
+Days 270: 128, 42456
+Days 280: 151, 42718
+Days 290: 159, 42975
+Days 300: 150, 43308
+Days 310: 122, 43560
+Days 320: 101, 43798
+Days 330: 63, 43925
+Days 340: 44, 44033
+Days 350: 24, 44083
+Days 360: 40, 44151
+Days 370: 25, 44193
+Days 380: 10, 44216
+Days 390: 16, 44238
+Days 400: 13, 44263
+Days 410: 9, 44276
+Days 420: 6, 44294
+Viruses extinction
+
+out_dir =
+
+out/20151123/c15
+
+done
+
+out_dir =
+
+out/20151123/c15
+
+done
+
+out_dir =
+
+out/20151123/c15
+
+"export"
+save output
+error: processes not finished
+processes completed
+>> 
