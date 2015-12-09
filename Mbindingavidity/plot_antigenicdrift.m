@@ -38,11 +38,11 @@ x2 = dat_VirusesArray(vid2,2);
 y2 = dat_VirusesArray(vid2,11);
 y1 = y1 + y2;
 bypro = abs(y2-y1);
-if bypro>0.1
-plot([x2 x1],[y2 y1],'r-');
+if bypro>0.01
+plot([x2 x1],[y2 y1],'r-','LineWidth',1.2);
 end
-if bypro<=0.1
-plot([x2 x1],[y2 y1],'c-');
+if bypro<=0.01
+plot([x2 x1],[y2 y1],'c-','LineWidth',1.2);
 end
 end
 
@@ -65,15 +65,22 @@ end
 figure;
 hold on
 virus = dat_VirusesArray;
-for d = 1:5:900
-        vid = find(virus(:,2)>d & virus(:,2)<d+10);
-	immuneJ = virus(vid,5)-(virus(vid,11)-virus(vid,10)-virus(vid,9)); 
+interval = 1;
+for d = 1:1:900
+        vid = find(virus(:,2)>=d & virus(:,2)<d+interval);
+	    immuneJ = virus(vid,5)-(virus(vid,11)-virus(vid,10)-virus(vid,9)); 
         immuneJ(find(immuneJ<0)) = 0;
-        plot(d+10,mean(immuneJ),'k.');
-        plot(d+10,mean(virus(vid,7)),'.'); 
+        plot(d+1,mean(immuneJ),'k.');
+        %plot(d+1,mean(virus(vid,7)),'.'); 
 end
+ylabel('host immune status');
 
-
+figure;
+hold on
+for d = 1:1:900
+        vid = find(virus(:,2)>=d & virus(:,2)<d+interval);
+        plot(d+1,mean(virus(vid,7)),'.'); 
+end
 
 end
 
